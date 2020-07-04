@@ -15,7 +15,7 @@ public class PostmanechoTestV2 {
                 .post("/post")
                 .then()
                 .statusCode(200)
-                .header("Content-Type", "application/json; charset=Windows-1251")
+                .header("Content-Type", "application/json; charset=utf-8")
                 .contentType(ContentType.JSON);
     }
 }
