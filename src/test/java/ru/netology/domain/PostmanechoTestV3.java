@@ -14,7 +14,7 @@ public class PostmanechoTestV3 {
                 .when()
                 .post("/post")
                 .then()
-                .statusCode(200)
+                .statusCode(404)
                 .contentType(ContentType.JSON)
                 .body("data", equalTo("some data"));
     }
